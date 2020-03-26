@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import 'bootstrap/dist/css/bootstrap.min.css';//index.css is no longer used
+import {Alert, Button} from 'reactstrap';
+import styled from 'styled-components';
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
